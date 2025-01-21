@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+
+<style>
+html, body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient( #ffffff -180%, #008000 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    color: #0077aa;
+}
+.container {
+    background-color: #d6d6d6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #000000;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+
+<body>
+    <div class="container">
+        <h1>Please sign up.</h1>
+        <form>
+            <label for="fname">Username:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Password:</label><br>
+            <input type="password" id="lname" name="lname"><br><br>
+            <a href="#">Forgot password?</a>
+        </form>
+    </div>
+</body>
+</html>
